@@ -8,6 +8,8 @@ st.set_page_config(
     page_title="SCRAPER | Streamlit"
 )
 
+st.title("SCRAPER")
+
 tab1, tab2 = st.tabs(
     [
         "URL Shortener", "Wikipedia Web Scraper"

@@ -24,7 +24,7 @@ def shortener():
 
         c2.button("Clear", icon=":material/close:", on_click=clean)
 
-        submit = c3.button("short", icon=":material/cut:", type="primary")
+        submit = c3.button("Short", icon=":material/cut:", type="primary")
 
         if submit:
             if st.session_state.url_to_short != "":
